@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        color: white;
+      }
+
+      nav {
+        background-color: black;
+        height: 60px;
+      }
+
+      .one {
+        float: left;
+        margin-left: 20px;
+      }
+
+      nav .one ul li {
+        float: left;
+        list-style: none;
+        padding-left: 20px;
+      }
+
+      nav .one ul li a {
+        text-decoration: none;
+        color: red;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .one,
+      .two {
+        padding: 20px 0px;
+      }
+
+      .two {
+        float: right;
+        margin-right: 20px;
+        padding: 15px 0px;
+      }
+
+      .two button {
+        color: red;
+        padding: 5px 10px;
+        border-radius: 30px;
+        background-color: yellow;
+      }
+
+      .two span i {
+        color: red;
+        font-size: 25px;
+      }
+
+      /* Header */
+      .pizza {
+        background: url("beer-and-pizza-Assembly-brewing-pizza-crdt-aubrie-legault.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        width: 100%;
+        height: 92vh;
+      }
+
+      .pizza .text{
+        padding: 150px 150px;
+      }
+
+      .pizza .text h2{
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: yellow;
+      }
+
+      .pizza .text h1{
+        font-size: 80px;
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif;
+        color: red;
+        margin-left: 20px;
+      }
+
+      .pizza .text button{
+        padding: 20px 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        background-color: blue;
+        border-radius: 10px;
+        margin-left: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="one">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Services</a></li>
+        </ul>
+      </div>
+      <div class="two">
+        <button>Login/Regsiter</button>
+        <span><i class="bi bi-bag-check-fill"></i></span>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section>
+      <div class="pizza">
+        <div class="text">
+          <h2>BUY ONE</h2>
+          <h2>GET ONE</h2>
+          <h1>FREE</h1>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
